@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local Claude Code settings (per-machine)
+.claude/settings.local.json
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+
+# Secrets and env (if added later)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Agent memory (contains real task-specific information)
+.claude/agent-memory/
+
+# Personal work data (tasks, projects, daily logs, etc.)
+# Keep .gitkeep files for directory structure
+# Exceptions: default onboarding chain shipped in-repo (see work/README.md)
+work/tasks/*.md
+!work/tasks/TASK-2026-04-01-001-read-quickstart-and-command-list.md
+!work/tasks/TASK-2026-04-01-002-run-start-day-and-open-daily.md
+!work/tasks/TASK-2026-04-01-003-map-templates-to-work-folders.md
+!work/tasks/TASK-2026-04-01-004-exercise-task-flow-and-wip.md
+!work/tasks/TASK-2026-04-01-005-run-end-day-evening.md
+!work/tasks/TASK-2026-04-01-006-run-board-html-wrap-up.md
+work/work-items/*.md
+!work/work-items/WI-ONB-001-master-daily-rhythm.md
+work/projects/*.md
+!work/projects/learn-task-os-daily.md
+work/focus-areas/*.md
+!work/focus-areas/task-os-onboarding.md
+work/daily/*.md
+work/weekly/*.md
+work/archive/
+!work/archive/.gitkeep
+work/board.html
+work/board.csv
+work/tasks.csv
